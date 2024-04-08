@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-image-container">
+      <div class="netflix-logo">
+        <svg width="150" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <image
+            xlink:href="https://images.ctfassets.net/y2ske730sjqp/821Wg4N9hJD8vs5FBcCGg/9eaf66123397cc61be14e40174123c40/Vector__3_.svg?w=460"
+            width="150"
+          />
+        </svg>
+      </div>
+      <img
+        class="background-image"
+        src="Netflix/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+        srcset="
+          https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg  1000w,
+          https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w,
+          https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg  1800w
+        "
+        alt="background-image"
+      />
+      <div class="overlay"></div>
+    </div>
+    <div class="container">
+      <div class="MAIN-LOGIN">
+        <h1><bold>Sign In</bold></h1>
+        <div class="info">
+          <input
+            type="text"
+            id="Username"
+            placeholder="Email or Phone Number"
+            required
+          />
+        </div>
+        <div class="info">
+          <input
+            type="password"
+            id="Password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <button id="sign-in" type="Sign-In">Sign In</button><br />
+        <input type="checkbox" id="remember-me" />
+        <label id="remember-me" for="remember-me">Remember Me</label>
+        <a href="">Need help?</a>
+        <pre>New to Netflix? </pre>
+        <a id="signup"> Sign up now</a>
+        <p>
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+        </p>
+      </div>
+    </div>
+    <script src="netflix.js"></script>
+  </body>
+</html>
